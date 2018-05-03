@@ -18,7 +18,7 @@ operation.options={:width => 500, :height => 500}
 
 stack_definition.stack_operations = [operation]
 stack_definition.stack_options = {:autoformat => true}
-name = "foo" # String |
+name = "foo" 
 
 opts = {
     overwrite: true # BOOLEAN | Whether to overwrite the stack if it already exists
