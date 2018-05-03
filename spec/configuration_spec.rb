@@ -12,14 +12,14 @@ Swagger Codegen version: 2.3.1
 
 require 'spec_helper'
 
-describe SwaggerClient::Configuration do
-  let(:config) { SwaggerClient::Configuration.default }
+describe RokkaClientCodegen::Configuration do
+  let(:config) { RokkaClientCodegen::Configuration.default }
 
   before(:each) do
     # uncomment below to setup host and base_path
     #require 'URI'
     #uri = URI.parse("https://api.rokka.io")
-    #SwaggerClient.configure do |c|
+    #RokkaClientCodegen.configure do |c|
     #  c.host = uri.host
     #  c.base_path = uri.path
     #end
