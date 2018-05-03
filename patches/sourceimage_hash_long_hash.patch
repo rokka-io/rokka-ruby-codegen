@@ -1,0 +1,62 @@
+diff --git a/docs/SourceImage.md b/docs/SourceImage.md
+index e65930c..d3abdf0 100644
+--- a/docs/SourceImage.md
++++ b/docs/SourceImage.md
+@@ -3,7 +3,7 @@
+ ## Properties
+ Name | Type | Description | Notes
+ ------------ | ------------- | ------------- | -------------
+-**hash** | **String** |  | [optional] 
++**long_hash** | **String** |  | [optional] 
+ **short_hash** | **String** |  | [optional] 
+ **binary_hash** | **String** |  | [optional] 
+ **created** | **DateTime** |  | [optional] 
+diff --git a/lib/rokka_client_codegen/models/source_image.rb b/lib/rokka_client_codegen/models/source_image.rb
+index a1458c4..31ed9a9 100644
+--- a/lib/rokka_client_codegen/models/source_image.rb
++++ b/lib/rokka_client_codegen/models/source_image.rb
+@@ -15,7 +15,7 @@ require 'date'
+ module RokkaClientCodegen
+ 
+   class SourceImage
+-    attr_accessor :hash
++    attr_accessor :long_hash
+ 
+     attr_accessor :short_hash
+ 
+@@ -54,7 +54,7 @@ module RokkaClientCodegen
+     # Attribute mapping from ruby-style variable name to JSON key.
+     def self.attribute_map
+       {
+-        :'hash' => :'hash',
++        :'long_hash' => :'hash',
+         :'short_hash' => :'short_hash',
+         :'binary_hash' => :'binary_hash',
+         :'created' => :'created',
+@@ -77,7 +77,7 @@ module RokkaClientCodegen
+     # Attribute type mapping.
+     def self.swagger_types
+       {
+-        :'hash' => :'String',
++        :'long_hash' => :'String',
+         :'short_hash' => :'String',
+         :'binary_hash' => :'String',
+         :'created' => :'DateTime',
+@@ -106,7 +106,7 @@ module RokkaClientCodegen
+       attributes = attributes.each_with_object({}){|(k,v), h| h[k.to_sym] = v}
+ 
+       if attributes.has_key?(:'hash')
+-        self.hash = attributes[:'hash']
++        self.long_hash = attributes[:'hash']
+       end
+ 
+       if attributes.has_key?(:'short_hash')
+@@ -221,7 +221,7 @@ module RokkaClientCodegen
+     # Calculates hash code according to all attributes.
+     # @return [Fixnum] Hash code
+     def hash
+-      [hash, short_hash, binary_hash, created, name, mimetype, format, size, width, height, organization, link, dynamic_metadata, static_metadata, user_metadata, deleted, deleted_date].hash
++      [long_hash, short_hash, binary_hash, created, name, mimetype, format, size, width, height, organization, link, dynamic_metadata, static_metadata, user_metadata, deleted, deleted_date].hash
+     end
+ 
+     # Builds the object from hash
