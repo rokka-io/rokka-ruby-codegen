@@ -51,8 +51,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.create_membership"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_membership, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_membership, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'email' is set
@@ -112,8 +112,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.create_organization"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_organization, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_organization, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'organization_definition' is set
@@ -173,8 +173,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.create_organization_options"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_organization_options, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.create_organization_options, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'organization_options' is set
@@ -285,8 +285,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.delete_membership"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.delete_membership, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.delete_membership, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'email' is set
@@ -345,8 +345,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.get_membership"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.get_membership, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.get_membership, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'email' is set
@@ -404,8 +404,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling AdminApi.get_organization"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.get_organization, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling AdminApi.get_organization, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # resource path

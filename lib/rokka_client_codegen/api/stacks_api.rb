@@ -53,16 +53,16 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling StacksApi.create_stack"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.create_stack, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.create_stack, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'name' is set
       if @api_client.config.client_side_validation && name.nil?
         fail ArgumentError, "Missing the required parameter 'name' when calling StacksApi.create_stack"
       end
-      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9-_]+/)
-        fail ArgumentError, "invalid value for 'name' when calling StacksApi.create_stack, must conform to the pattern /[a-z0-9-_]+/."
+      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9\\-_]+/)
+        fail ArgumentError, "invalid value for 'name' when calling StacksApi.create_stack, must conform to the pattern /[a-z0-9\\-_]+/."
       end
 
       # resource path
@@ -119,16 +119,16 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling StacksApi.delete_stack"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.delete_stack, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.delete_stack, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'name' is set
       if @api_client.config.client_side_validation && name.nil?
         fail ArgumentError, "Missing the required parameter 'name' when calling StacksApi.delete_stack"
       end
-      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9-_]+/)
-        fail ArgumentError, "invalid value for 'name' when calling StacksApi.delete_stack, must conform to the pattern /[a-z0-9-_]+/."
+      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9\\-_]+/)
+        fail ArgumentError, "invalid value for 'name' when calling StacksApi.delete_stack, must conform to the pattern /[a-z0-9\\-_]+/."
       end
 
       # resource path
@@ -183,16 +183,16 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling StacksApi.get_stack"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.get_stack, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.get_stack, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'name' is set
       if @api_client.config.client_side_validation && name.nil?
         fail ArgumentError, "Missing the required parameter 'name' when calling StacksApi.get_stack"
       end
-      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9-_]+/)
-        fail ArgumentError, "invalid value for 'name' when calling StacksApi.get_stack, must conform to the pattern /[a-z0-9-_]+/."
+      if @api_client.config.client_side_validation && name !~ Regexp.new(/[a-z0-9\\-_]+/)
+        fail ArgumentError, "invalid value for 'name' when calling StacksApi.get_stack, must conform to the pattern /[a-z0-9\\-_]+/."
       end
 
       # resource path
@@ -336,8 +336,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling StacksApi.list_stacks"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.list_stacks, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling StacksApi.list_stacks, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # resource path

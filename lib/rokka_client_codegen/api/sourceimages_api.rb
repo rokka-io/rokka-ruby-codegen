@@ -53,8 +53,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.copy_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.copy_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.copy_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -130,8 +130,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.create_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # resource path
@@ -202,8 +202,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.create_source_image_meta_dynamic_with_name"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_dynamic_with_name, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_dynamic_with_name, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -282,8 +282,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.create_source_image_meta_user"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_user, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_user, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -354,8 +354,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.create_source_image_meta_user_wth_name"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_user_wth_name, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.create_source_image_meta_user_wth_name, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -426,8 +426,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.delete_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -494,8 +494,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.delete_source_image_meta_dynamic_with_name"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_dynamic_with_name, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_dynamic_with_name, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -568,8 +568,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.delete_source_image_meta_user"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_user, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_user, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -634,8 +634,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.delete_source_image_meta_user_with_name"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_user_with_name, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.delete_source_image_meta_user_with_name, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -706,8 +706,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.download_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.download_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.download_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -771,8 +771,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.get_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -836,8 +836,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.get_source_image_meta_user"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image_meta_user, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image_meta_user, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -903,8 +903,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.get_source_image_meta_user_with_name"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image_meta_user_with_name, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.get_source_image_meta_user_with_name, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -982,8 +982,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.list_source_images"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.list_source_images, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.list_source_images, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       if @api_client.config.client_side_validation && !opts[:'limit'].nil? && opts[:'limit'] > 2000
@@ -1051,8 +1051,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.list_source_images_by_binary_hash"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.list_source_images_by_binary_hash, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.list_source_images_by_binary_hash, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'binary_hash' is set
@@ -1118,8 +1118,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.patch_source_image_meta_user"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.patch_source_image_meta_user, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.patch_source_image_meta_user, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
@@ -1182,8 +1182,8 @@ module RokkaClientCodegen
       if @api_client.config.client_side_validation && organization.nil?
         fail ArgumentError, "Missing the required parameter 'organization' when calling SourceimagesApi.restore_source_image"
       end
-      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z-]+/)
-        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.restore_source_image, must conform to the pattern /[0-9a-z-]+/."
+      if @api_client.config.client_side_validation && organization !~ Regexp.new(/[0-9a-z\\-]+/)
+        fail ArgumentError, "invalid value for 'organization' when calling SourceimagesApi.restore_source_image, must conform to the pattern /[0-9a-z\\-]+/."
       end
 
       # verify the required parameter 'hash' is set
