@@ -1,0 +1,8 @@
+deploy:
+  provider: rubygems
+  api_key:
+    secure: XknTrjXJR7Y76GS2sqNc35DfeUt0wrMKsKWyOhe3NBPvuro/JveZp35kEhCA3UMlBTRji9cScEQl9+H5hWitmA3rBV36fhYaCkkwvNlyYM6WIPFSUa0lOugOL1F4Aif2n5U21AgBs1E+E9thGDKX0NqitwXplqW+Bw02K4OBWq8IOSfb0Iw4G4j6SlE0JW6qG5ZgyriPil5ANA2vHqayTUjFrzXzea8+r1VDW/30gTevvDpIcmgfmc3+74XcymXVTOkyIeADx3mdWmgS+UL3uPekBC7NQQph3C8ez/lMyAlvYUHWZYrN+UMFGMm4Ljy4BGi0lAkYXTBdAK9AWr5firmzLUIRQA0OVqD3PcXmBV4UohKM8t/Xrbzmbr69PtMFnRrXxZGbQYe+3E8kTtRBXlZlVSfVSmxrpzXFVGuhFyp830gQ/RL/LtcOSqzXCdH4ozSaaeaH3ZiO3bvpTvzcL+PVYs+pjUhejTjg0hn0rpUsHf6pdz44HbLc240ejghRSrfevbw2rx33UE+O+l6FOs0gS3YqU5r5b3agTeZLFbOQyB/dJmGRx3x/QvnfdpjeM0+4fzkKVYrg8c8mgZ5OvRgY9wV/yBtCWrImWr52+VNkM6iUmo5mj5k9QaLDyNkhCWjwnhCkpXH/FZ7wbvIxugoiUe7BIOU/DtEG7kkNtsc=
+  gem: rokka-client-codegen
+  on:
+    tags: true
+    repo: rokka-io/rokka-ruby-codegen
