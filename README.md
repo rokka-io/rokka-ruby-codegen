@@ -6,15 +6,26 @@ See the [examples](examples/) directory for some simple rokka specific examples.
 
 A thin wrapper package for using this to make some things easier would be welcome. We're [happy to help](https://rokka.io/en/contact/).
 
-The gem is currently nowhere published, you have to build it yourself (see below). But if needed, we will publish it.
-
 - API version: 1.0.0
-- Package version: 0.0.1
-- Build package: io.swagger.codegen.languages.RubyClientCodegen
+- Package version: 0.0.5
 
 ## Installation
 
-### Build a gem
+### Use the gem from rubygems.org
+
+Add this to your Gemfile:
+
+```shell
+gem 'rokka_client_codegen', '~> 0.0.5'
+```
+
+Or install it with: 
+```shell
+gem install rokka_client_codegen
+```
+
+
+### Build a gem from source
 
 To build the Ruby code into a gem:
 
@@ -25,21 +36,21 @@ gem build rokka_client_codegen.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./rokka_client_codegen-0.0.1.gem
+gem install ./rokka_client_codegen-0.0.5.gem
 ```
-(for development, run `gem install --dev ./rokka_client_codegen-0.0.1.gem` to install the development dependencies)
+(for development, run `gem install --dev ./rokka_client_codegen-0.0.5.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'rokka_client_codegen', '~> 0.0.1'
+    gem 'rokka_client_codegen', '~> 0.0.5'
 
 ### Install from Git
 
 If the Ruby gem is hosted at a git repository: https://github.com/GIT_USER_ID/GIT_REPO_ID, then add the following in the Gemfile:
 
-    gem 'rokka_client_codegen', :git => 'https://github.com/GIT_USER_ID/GIT_REPO_ID.git'
+    gem 'rokka_client_codegen', :git => 'https://github.com/rokka-io/rokka-ruby-codegen.git'
 
 ### Include the Ruby code directly
 

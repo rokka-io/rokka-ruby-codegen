@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["rokka"]
   s.email       = ["rokka@rokka.io"]
-  s.homepage    = "https://github.com/rokka-io/rokka_ruby_codegen"
+  s.homepage    = "https://github.com/rokka-io/rokka-ruby-codegen"
   s.summary     = "rokka.io Ruby Gem"
-  s.description = "digital image processing done right. [Documentation](https://rokka.io/documentation). [Changelog](https://api.rokka.io/changelog.md)."
+  s.description = "A rokka client for ruby."
   s.license     = "MIT"
   s.required_ruby_version = ">= 1.9"
 

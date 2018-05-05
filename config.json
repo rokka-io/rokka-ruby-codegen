@@ -1,5 +1,11 @@
 {
-  "gemVersion": "0.0.1",
+  "gemVersion": "0.0.5",
   "moduleName": "RokkaClientCodegen",
+  "gemLicense": "MIT",
+  "gemName": "rokka_client_codegen",
+  "gemAuthor": "rokka",
+  "gemAuthorEmail": "rokka@rokka.io",
+  "gemDescription": "A rokka client for ruby.",
+  "gemHomepage": "https://github.com/rokka-io/rokka-ruby-codegen",
   "gemLicense": "MIT"
 }
