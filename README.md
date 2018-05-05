@@ -7,7 +7,7 @@ See the [examples](examples/) directory for some simple rokka specific examples.
 A thin wrapper package for using this to make some things easier would be welcome. We're [happy to help](https://rokka.io/en/contact/).
 
 - API version: 1.0.0
-- Package version: 0.0.5
+- Package version: 0.1.0
 
 ## Installation
 
@@ -16,7 +16,7 @@ A thin wrapper package for using this to make some things easier would be welcom
 Add this to your Gemfile:
 
 ```shell
-gem 'rokka_client_codegen', '~> 0.0.5'
+gem 'rokka_client_codegen', '~> 0.1.0'
 ```
 
 Or install it with: 
@@ -36,15 +36,15 @@ gem build rokka_client_codegen.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./rokka_client_codegen-0.0.5.gem
+gem install ./rokka_client_codegen-0.1.0.gem
 ```
-(for development, run `gem install --dev ./rokka_client_codegen-0.0.5.gem` to install the development dependencies)
+(for development, run `gem install --dev ./rokka_client_codegen-0.1.0.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'rokka_client_codegen', '~> 0.0.5'
+    gem 'rokka_client_codegen', '~> 0.1.0'
 
 ### Install from Git
 

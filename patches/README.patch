@@ -1,5 +1,5 @@
 diff --git b/README.md a/README.md
-index 5045008..95f0fe7 100644
+index 080c08f..d75480d 100644
 --- b/README.md
 +++ a/README.md
 @@ -1,18 +1,31 @@
@@ -15,7 +15,7 @@ index 5045008..95f0fe7 100644
 +A thin wrapper package for using this to make some things easier would be welcome. We're [happy to help](https://rokka.io/en/contact/).
  
  - API version: 1.0.0
- - Package version: 0.0.5
+ - Package version: 0.1.0
 -- Build package: io.swagger.codegen.languages.RubyClientCodegen
  
  ## Installation
@@ -26,7 +26,7 @@ index 5045008..95f0fe7 100644
 +Add this to your Gemfile:
 +
 +```shell
-+gem 'rokka_client_codegen', '~> 0.0.5'
++gem 'rokka_client_codegen', '~> 0.1.0'
 +```
 +
 +Or install it with: 

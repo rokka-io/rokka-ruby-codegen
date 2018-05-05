@@ -1,5 +1,5 @@
 {
-  "gemVersion": "0.0.5",
+  "gemVersion": "0.1.0",
   "moduleName": "RokkaClientCodegen",
   "gemLicense": "MIT",
   "gemName": "rokka_client_codegen",
