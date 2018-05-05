@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.name        = "rokka_client_codegen"
   s.version     = RokkaClientCodegen::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Swagger-Codegen"]
-  s.email       = [""]
-  s.homepage    = "https://github.com/swagger-api/swagger-codegen"
+  s.authors     = ["rokka"]
+  s.email       = ["rokka@rokka.io"]
+  s.homepage    = "https://github.com/rokka-io/rokka_ruby_codegen"
   s.summary     = "rokka.io Ruby Gem"
   s.description = "digital image processing done right. [Documentation](https://rokka.io/documentation). [Changelog](https://api.rokka.io/changelog.md)."
   s.license     = "MIT"
